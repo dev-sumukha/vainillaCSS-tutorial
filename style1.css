@@ -1,0 +1,56 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.myContainer{
+    /* border: red 2px solid; */
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.healthLogo{
+    height: 50%;
+    width: 300px;
+    border-radius: 70%;
+}
+
+.providers{
+    margin: 30px;
+    /* border: brown 2px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.faq-header{
+    margin: 30px;
+    /* border: hotpink solid 2px; */
+}
+
+.faq{
+    margin: 30px;
+}
+
+.faqinput{
+    width: 80%;
+    height: 50px;
+    font-size: 30px;
+}
+
+.questions{
+    margin: auto;
+    width: 50%;
+}
+
+.answer{
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+li{
+    list-style: none;
+}

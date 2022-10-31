@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.nav-items ul{
+    display: flex;
+}
+
+.nav-items ul li{
+    list-style: none;
+    margin: 20px;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.auth button{
+    margin: 5px;
+}
+
+#signup{
+    background-color: lightgreen;
+    border: lightgreen 2px solid;
+}
+
+#login{
+    border: lightgreen 2px solid;
+}
+
+#cards{
+    margin-top: 40px;
+}
+
+.container{
+    margin: auto;
+    display: grid;
+    grid-template-columns:430px 430px 430px;
+    height: auto;
+}
+
+.cardu{
+    margin: 20px;
+    border: 2px black solid;
+}
+.card-img{
+    max-width: 100%; /*takes the width of the card and adjust itself*/
+}
+
+.card-button{
+    padding: 0 25px 0 25px;
+    margin-left: 40%;
+    background-color: chartreuse;
+    border: none;
+}
+
+.msg-section{
+    margin: 30px;
+    border: 1px black solid;
+    display: grid;
+    grid-template-columns: auto 600px;
+    height: 500px;
+}
+
+.msg{
+    margin: 30px;
+}
+
+#msg-img{
+    border-radius: 50%;
+}
+
+.text{
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows: 100px 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.health-card{
+    display: flex;
+    border: black 2px solid;
+    height: 400px;
+    width: 100%;
+}
+
+.health-dept-images{
+    margin: 60px;
+}
+
+.health-card-img{
+
+}
+
+.health-card-text{
+    display: grid;
+    grid-template-rows: 120px 120px;
+    align-items: center;
+    margin: auto;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands{
+    margin: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items li:hover{
+    background-color: rgba(186, 232, 247, 0.782);
+    cursor: pointer;
+    text-decoration: underline;
+}

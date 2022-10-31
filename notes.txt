@@ -1,0 +1,4 @@
+1) button problem in card its going out of the box
+2) keep the size auto inorder to adjust the size itself
+3) Ask for assignments
+4) change the nav element of the active page
